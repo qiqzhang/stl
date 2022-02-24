@@ -1,0 +1,27 @@
+STL 由容器(containers)、迭代器(iterators)、空间配置器(allocator)、配接器(adapters)、算法(algorithms)、仿函数(functors)六个部分。
+
+《一》序列式容器
+(1)、vector：可变大小数组。
+(2)、deque：双端队列。
+(3)、list：双向链表。
+(4)、forward_list：单向链表。
+(5)、array：固定大小数组。
+(6)、string：与vector相似的容器，但专门用于保存字符(无案例)。
+
+《二》关联容器
+C++ STL 标准库提供了 4 种关联式容器，分别为 map、set、multimap、multiset
+
+《三》无序关联式容器
+无序容器只是一类容器的统称，其包含有 4 个具体容器，分别为 unordered_map、unordered_multimap、unordered_set 以及 unordered_multise
+
+《四》容器适配器
+提供了 3 种容器适配器，分别为 
+(1)、stack 栈适配器、后进先出。基础容器为deque
+(2)、queue 队列适配器、后进后出。基础容器为deque
+(3)、priority_queue 优先权队列适配器。基础容器为vector
+
+《五》迭代器适配器
+C++ STL 标准库中迭代器大致分为 5 种类型，分别是输入迭代器、输出迭代器、前向迭代器、双向迭代器以及随机访问迭代器。
+
+《六》常用算法
+
